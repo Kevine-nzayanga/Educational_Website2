@@ -2,56 +2,322 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Edu-Web</title>
+    <title>Complete Responsive Online Study Website Design Tutorial</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <main>
-        <div class="nav-barr">
-            <div class="nav">
-                <input type="checkbox" id="nav-check">
-                <div class="nav-header">
-                  <div class="nav-title">
-                    <img class="logo" src="images/sizedlogo.png" alt="">
-                  </div>
-                </div>
-                <div class="nav-btn">
-                  <label for="nav-check">
-    
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </label>
-                </div>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+<img class="logo" src="images/EDU_HUB__3_-fotor-20230612232917-removebg-preview.png" alt="">
+    <!-- <a href="#" class="logo"><i class="fas fa-user-graduate"></i>LOGO</a> -->
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#course">course</a></li>
+            <li><a href="#teacher">teacher</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="login" class="fas fa-user-circle"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form  -->
+
+<div class="login-form">
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" placeholder="username" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+        <input type="submit" class="btn" value="login">
+        <i class="fas fa-times"></i>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h1>Education from home</h1>
+    <p>Online learning is a great equalizer for less privileged children. 
+    It gives them the opportunity to learn at their own pace and in their own way,
+    without being held lack of adequate resources</p>
+    <a href="#"><button class="btn">get started</button></a>
+
+    <div class="shape"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/img1.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>why choose EduHub?</h3>
+        <p>Online educational material provides access to a vast amount of information and 
+            resources from various sources. You can find tutorials, videos, articles, interactive exercises,
+             and more on all our available subjects.</p>
+        <a href="#"><button class="btn">learn more</button></a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- course section starts  -->
+
+<section class="course" id="course">
+
+<h1 class="heading">Available Subjects</h1>    
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/black1.jpg" alt="">
+        <!-- <h3 class="price">$50</h3> -->
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Chemistry</a>
+            <p>Chemistry is a branch of science that explores the composition, properties, structure, 
+                and behavior of matter. It is often referred to as the "central science" because it connects 
+                and interacts with other scientific disciplines, such as physics, biology, geology, and 
+                environmental science.</p>
+            <div class="info">
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/black2.jpg" alt="">
+        <!-- <h3 class="price">$50</h3> -->
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Biology</a>
+<p>Biology is a scientific discipline that explores the study of life and living organisms.
+     It encompasses a wide range of topics, from the structure and function of cells to the 
+     complexity of ecosystems and the diversity of species on Earth. Biology seeks to understand 
+     the processes, mechanisms, and interactions that characterize living organisms and their environments.</p>
+            <div class="info">
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/black3.jpg" alt="">
+        <!-- <h3 class="price">$50</h3> -->
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Physics</a>
+<p>Physics is a fundamental branch of science that aims to understand the fundamental laws and 
+    principles that govern the natural world. It seeks to explain the behavior of matter and energy, 
+    the forces and interactions between objects, and the motion of particles and bodies.</p>
+            <div class="info">
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/black4.jpg" alt="">
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Math</a>
+            <p>Math a universal language and a fundamental branch of knowledge that 
+                deals with the study of numbers, quantities, shapes, structures, and patterns.
+                 It is a discipline that involves logical reasoning, abstraction, and problem-solving.</p>
+            <div class="info">
                 
-                <div class="nav-links">
-                    <a href="#home">Home</a>
-                    <a href="#shop">Courses</a>
-                    <a href="#services">Blog</a>
-                    <a href="#contact">Contact</a>
-                </div>
-              </div>
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
             </div>
-    </main>
+        </div>
+    </div>
 
-    <section class="intro">
-        <div class="banner">
-            <div class="banner-text">
-                 <h1>Find all your TextBooks here.</h1>
-                <p>Edu-Web is your gateway to a world of science learning, where curiosity knows no bounds 
-                    and every question is a stepping stone to enlightenment.</p>
-             </div>
+    <div class="box">
+        <img src="images/black5.jpg" alt="">
+        <!-- <h3 class="price">$50</h3> -->
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
             </div>
+            <a href="#" class="title">Geography</a>
+            <p>Geography is a multifaceted field of study that explores the Earth's physical features, 
+                human societies, and the relationships between them. It seeks to understand the spatial 
+                patterns, processes, and interactions that shape our planet.</p>
+            <div class="info">
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/black6.jpg" alt="">
+        <!-- <h3 class="price">$50</h3> -->
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="#" class="title">Computer Science</a>
+          <p>Computer science is a field of study that focuses on the theory, design, development, 
+            and application of computers and computer systems. It encompasses a wide range of topics,
+             including algorithms, programming languages, software development, artificial intelligence, 
+             databases, computer networks, and more.</p>
+            <div class="info">
+                <h3> <i class="fas fa-book"></i> 12 modules </h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- course section ends -->
+
+<!-- teacher section starts  -->
+
+<section class="teacher" id="teacher">
+
+<h1 class="heading">Student support</h1>
+
+<p>Our student support helps in guidance of any further questions students may have,
+     it is available 24/7 with language translation options available.</p>
+
+<a href="#"><button class="btn">learn more</button></a>
+
+</section>
+
+<!-- teacher section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading">contact us</h1>
+
+<div class="row">
+
+    <form action="">
+        <input type="text" placeholder="full name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <input type="number" placeholder="your number" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+        <input type="submit" class="btn" value="send now">
+    </form>
+
+    <div class="image">
+        <img src="" alt="">
+    </div>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Student support location</h3>
+            <a href="#">Burundi</a>
+            <a href="#">Uganda</a>
+            <a href="#">Kenya</a>
+            <a href="#">Rwanda</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">course</a>
+            <a href="#">teachers</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> Bujumbura, Burundi </p>
+            <p> <i class="fas fa-envelope"></i> Kevine0wner@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +25754639456 </p>
+        </div>
+
+    </div>
+
+    <h1 class="credit">created by <a href="#">Kevine </a> all rights reserved. </h1>
+
+</div>
+
+<!-- footer section ends -->
 
 
-    </section>
+<script src="script.js"></script>
 
-    <section class="inform">
-
-    </section>
-
-    <script src="index.js"></script>
 </body>
 </html>

@@ -390,11 +390,12 @@ header #menu{
 }
 .teacher .heading{
     color: #f39c12;
+    font-size: 3.0rem;
 }
 
 .teacher p{
-    font-size: 1.8rem;
-    color:#666;
+    font-size: 2.3rem;
+    color:#ffffff;
     width:65rem;
     margin:1rem auto;
 }
